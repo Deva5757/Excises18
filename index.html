@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_Application</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>To Do App</h1>
+        </div>
+        <div class="times">
+            <div class="countdown">
+                <div class="timer">
+                    <div class="days">00</div>
+                    <label>Days</label>
+                </div>
+                <div class="timer">
+                    <div class="hrs">00</div>
+                    <label>Hours</label>
+                </div>
+                <div class="timer">
+                    <div class="min">00</div>
+                    <label>Minutes</label>
+                </div>
+                <div class="timer">
+                    <div class="sec">00</div>
+                    <label>Seconds</label>
+                </div>
+                
+            </div>
+            <div class="msg">
+                <h3>Add On Your Task Hurry Up!</h3>
+            </div>
+        </div>
+
+        <div class="to_do">
+            <fieldset>
+                <legend>Add Task</legend>
+                <img src="Image/logo.jpg" alt="" srcset="">
+                <div class="addtask">
+                    <div class="text_box">
+                        <input type="text" name="" id="task">
+                    </div>
+                    <div class="btn">
+                        <button onclick="addTask()">Add <img src="Image/checked_190411.png" alt=""></button>
+                    </div>
+
+                </div>
+                <div class="list_item">
+                    <ul id="list"></ul>
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+    <script src="Script/script.js"></script>
+</body>
+
+</html>
